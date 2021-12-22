@@ -1,6 +1,6 @@
 # Carty
 Carty is a simple CRUD application for product management. Made with PHP, MySQL, and Bootstrap.
-<hr>
+
 ## Changelog 
 Per 22th Dec 2021
 - Initial Release
