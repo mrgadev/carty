@@ -20,3 +20,5 @@ Edit Product Page
 
 ![Delete Product](https://github.com/mrizqighana/carty/blob/main/assets/carty-delete.PNG)
 Delete Product Page
+
+P.S. : If you have any suggestion, please dm me in https://instagram.com/mrizqighana !
