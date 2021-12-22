@@ -1,5 +1,5 @@
 # Carty
-Carty is a simple CRUD application for product management. Made with PHP, MySQL, and Bootstrap.
+Carty is a simple CRUD application for product management. Made with PHP, MySQL, and Bootstrap 4.
 
 ## Changelog 
 Per 22th Dec 2021
@@ -10,7 +10,7 @@ Insya Allah, to-do lists for next release
 v. 2
 - Fix when opened in mobile devices (aka responsiveness)
 - Adding some items at homepage (such as: about us section, contact section, etc.)
-- Fix at edit feature (fow now, you can't edit product in this app)
+- Fix at edit feature (for now, you can't edit product in this app)
 
 ## Here some screenshots
 ![Homepage](https://github.com/mrizqighana/carty/blob/main/assets/carty-home.PNG)
