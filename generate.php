@@ -10,23 +10,23 @@
     die ("Koneksi dengan database gagal: ".mysqli_connect_errno()." - ".mysqli_connect_error());
   }
 
-  // buat database arkademy jika belum ada
-  $query = "CREATE DATABASE IF NOT EXISTS arkademy";
+  // buat database carty jika belum ada
+  $query = "CREATE DATABASE IF NOT EXISTS carty";
   $result = mysqli_query($link, $query);
   
   if(!$result) {
     die ("Query Error: ".mysqli_errno($link)." - ".mysqli_error($link));
   } else {
-    echo "Database <b>'arkademy'</b> berhasil dibuat... <br>";
+    echo "Database <b>'carty'</b> berhasil dibuat... <br>";
   }
 
-  // pilih database arkademy
-  $result = mysqli_select_db($link, "arkademy");
+  // pilih database carty
+  $result = mysqli_select_db($link, "carty");
 
   if(!$result) {
     die ("Query Error: ".mysqli_errno($link)." - ".mysqli_error($link));
   } else {
-    echo "Database <b>'arkademy'</b> berhasil dipilih... <br>";
+    echo "Database <b>'carty'</b> berhasil dipilih... <br>";
   }
 
   // cek apakah tabel produk sudah ada. jika iya, hapus tabel
