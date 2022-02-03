@@ -3,7 +3,7 @@
     $dbhost = "localhost";
     $dbuser = "root";
     $dbpass = "";
-    $dbname = "arkademy";
+    $dbname = "carty";
     // buat koneksi dengan database MySQL
     $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
